@@ -25,7 +25,9 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="index.html">Marta Lauza</a>
+        <a class="navbar-brand" href="index.html" title="Homepage"
+          >Marta Lauza</a
+        >
         <button
           class="navbar-toggler"
           type="button"
@@ -39,10 +41,16 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="index.html"
+            <a
+              class="nav-link active"
+              aria-current="page"
+              href="index.html"
+              title="Homepage"
               >Home</a
             >
-            <a class="nav-link" href="about.html" title="Homepage">About me</a>
+            <a class="nav-link" href="about.html" title="About Marta Lauza"
+              >About me</a
+            >
             <a
               class="nav-link"
               href="about.html#contact"
@@ -58,12 +66,12 @@
     <h3 class="text-center">🇱🇻 Front-end developer, based in Riga, Latvia</h3>
     <div class="navigation-links mb-5">
       <a
-        href="about.html#contact"
-        class="contact-link"
+        href="/about.html#contact"
+        class="primary-link"
         title="Contact Marta Lauza"
         >Contact me</a
       >
-      <a href="about.html" class="about-link" title="About Marta Lauza"
+      <a href="/about.html" class="secondary-link" title="About Marta Lauza"
         >About me</a
       >
     </div>
@@ -72,61 +80,28 @@
         <div class="col-md-6">
           <img
             src="images/yoga.png"
-            class="img-fluid rounded"
+            class="img-fluid rounded d-none d-sm-block"
             alt="Yoga project"
           />
         </div>
         <div class="col-md-6">
           <h2 class="mb-3">Yoga App</h2>
-          <p class="indexparagraph">
+          <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
             quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
             eos eveniet alias temporibus deserunt veritatis minima fugiat
             explicabo eum dolore.
           </p>
           <div class="mt-5">
-            <a href="#" class="btn pt-3 pb-3 contact-link" title="Yoga project"
+            <a href="#" class="primary-link project-link" title="Yoga project"
               >Launch Yoga App</a
             >
           </div>
         </div>
         <div class="row mt-5">
-          <div class="col-md-6">
+          <div class="col-sm-6">
             <h2 class="mb-3">Weather App</h2>
-            <p class="indexparagraph">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Perferendis quia, dignissimos nam ratione veniam quibusdam porro
-              omnis quam vel eos eveniet alias temporibus deserunt veritatis
-              minima fugiat explicabo eum dolore.
-            </p>
-            <div class="mt-5 mb-5">
-              <a
-                href="#"
-                class="btn pt-3 pb-3 contact-link"
-                title="Weather project"
-                >Launch Weather App</a
-              >
-            </div>
-          </div>
-          <div class="col-12 col-md-6">
-            <img
-              src="images/weather.png"
-              alt="Weather project"
-              class="img-fluid rounded"
-            />
-          </div>
-        </div>
-        <div class="row mt-5">
-          <div class="col-12 col-md-6">
-            <img
-              src="images/yogurt.png"
-              class="img-fluid rounded"
-              alt="Greek yogurt project"
-            />
-          </div>
-          <div class="col-md-6">
-            <h2 class="mb-3">Yogurt App</h2>
-            <p class="indexparagraph">
+            <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Perferendis quia, dignissimos nam ratione veniam quibusdam porro
               omnis quam vel eos eveniet alias temporibus deserunt veritatis
@@ -135,7 +110,40 @@
             <div class="mt-5">
               <a
                 href="#"
-                class="btn pt-3 pb-3 contact-link"
+                class="primary-link project-link"
+                title="Weather project"
+                >Launch Weather App</a
+              >
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <img
+              src="images/weather.png"
+              alt="Weather project"
+              class="img-fluid rounded d-none d-sm-block"
+            />
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-sm-6">
+            <img
+              src="images/yogurt.png"
+              class="img-fluid rounded d-none d-sm-block"
+              alt="Greek yogurt project"
+            />
+          </div>
+          <div class="col-sm-6">
+            <h2 class="mb-3">Yogurt App</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis quia, dignissimos nam ratione veniam quibusdam porro
+              omnis quam vel eos eveniet alias temporibus deserunt veritatis
+              minima fugiat explicabo eum dolore.
+            </p>
+            <div class="mt-5">
+              <a
+                href="#"
+                class="primary-link project-link"
                 title="Yogurt project"
               >
                 Launch Yogurt app</a
